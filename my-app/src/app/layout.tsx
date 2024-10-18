@@ -16,13 +16,49 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className='bg-blue-200 h-24'>
-          <h1>header bar</h1>
-        </header>
+      <header className="bg-purple-100 text-white">
+    <div className="container mx-auto flex justify-between items-center py-4 px-6">
+     
+      <div className="text-purple-700 text-2xl font-bold">
+        MyBrand
+      </div>
+
+    
+      <nav className="hidden md:flex space-x-6">
+        <a href="#" className="text-purple-700 hover:text-purple-500">Home</a>
+        <a href="#" className="text-purple-700 hover:text-purple-500">About</a>
+        <a href="#" className="text-purple-700 hover:text-purple-500">Services</a>
+        <a href="#" className="text-purple-700 hover:text-purple-500">Contact</a>
+      </nav>
+
+      
+      <div>
+        <a href="#" className="bg-purple-500 text-white py-2 px-4 rounded hover:bg-purple-600">
+          Login
+        </a>
+      </div>
+    </div>
+  </header>
         {children}
-        <footer className='bg-gray-200 h-24'>
-          <h1>footer bar</h1>
-        </footer>
+        <footer className="bg-purple-100 text-purple-700 py-8">
+    <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+    
+     
+
+    
+
+   
+      <div className="flex space-x-4">
+        <a href="#" className="hover:text-purple-500">Privacy Policy</a>
+        <a href="#" className="hover:text-purple-500">Terms of Service</a>
+      </div>
+    </div>
+
+   
+    <div className="text-center mt-6 text-purple-600">
+      <p>© <span id="year"></span> MyBrand. All rights reserved.</p>
+    </div>
+  </footer>
       </body>
     </html>
   )
