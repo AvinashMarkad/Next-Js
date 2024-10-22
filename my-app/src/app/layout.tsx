@@ -32,7 +32,7 @@ export default function RootLayout({
             </nav>
 
             <div>
-              <a href="/" className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
+              <a href="/login" className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
                 Logout
               </a>
             </div>
