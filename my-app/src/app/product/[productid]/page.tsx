@@ -11,8 +11,8 @@ export default function productid({
   }
 
   return (
-    <div>
-      <h1>product details {params.productid} </h1>
+    <div className="product-id">
+      <h1 className="product-id">product details {params.productid} </h1>
     </div>
   );
 }

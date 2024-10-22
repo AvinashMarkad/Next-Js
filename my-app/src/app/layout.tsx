@@ -15,7 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-white text-black">
+      <body>
+        <div className="bg-white text-black home">
         <header className="bg-white text-black">
           <div className="container mx-auto flex justify-between items-center py-4 px-6">
 
@@ -31,7 +32,7 @@ export default function RootLayout({
             </nav>
 
             <div>
-              <a href="#" className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
+              <a href="/" className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
                 Login
               </a>
             </div>
@@ -51,6 +52,7 @@ export default function RootLayout({
             <p>© <span id="year"></span> MyBrand. All rights reserved.</p>
           </div>
         </footer>
+        </div>
       </body>
     </html>
   )
