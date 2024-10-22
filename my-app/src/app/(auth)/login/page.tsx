@@ -33,7 +33,7 @@ export default function Login() {
                         <a href="/register" className="text-blue-500 hover:text-blue-700 text-sm">Register</a>
                     </div>
                     <button className="bg-black text-white p-2 rounded w-full hover:bg-gray-800 transition">
-                        Login
+                      <a href="/"> Login</a> 
                     </button>
                 </form>
             </div>

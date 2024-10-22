@@ -52,7 +52,9 @@ export default function Register() {
                             required
                         />
                     </div>
-                    <a className="bg-black text-white p-2 rounded w-full hover:bg-gray-800 transition" href="/login">Register</a>
+                   <button  className="bg-black text-white p-2 rounded w-full hover:bg-gray-800 transition">
+                        <a href="/login">Register</a>
+                    </button>
                 </form>
             </div>
         </section>
