@@ -27,31 +27,40 @@ export default function RootLayout({
             <nav className="hidden md:flex space-x-6">
               <a href="/" className="text-black hover:text-gray-700">Home</a>
               <a href="/about" className="text-black hover:text-gray-700">About</a>
-              <a href="/" className="text-black hover:text-gray-700">Services</a>
-              <a href="/" className="text-black hover:text-gray-700">Contact</a>
+              <a href="/service" className="text-black hover:text-gray-700">Services</a>
+              <a href="/contact" className="text-black hover:text-gray-700">Contact</a>
             </nav>
 
             <div>
               <a href="/" className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
-                Login
+                Logout
               </a>
             </div>
           </div>
         </header>
         {children}
         <footer className="bg-white text-black py-8">
-          <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+    <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+        <div className="flex space-x-4">
+            <a href="/" className="hover:text-gray-700">Privacy Policy</a>
+            <a href="/" className="hover:text-gray-700">Terms of Service</a>
+        </div>
+        <div className="mt-4 md:mt-0">
+            <p className="text-center md:text-right">Contact: <a href="mailto:info@cafedelight.com" className="hover:text-gray-700">info@cafedelight.com</a></p>
+        </div>
+    </div>
 
-            <div className="flex space-x-4">
-              <a href="/" className="hover:text-gray-700">Privacy Policy</a>
-              <a href="/" className="hover:text-gray-700">Terms of Service</a>
-            </div>
-          </div>
+    <div className="text-center mt-6">
+        <div className="flex justify-center space-x-4 mb-4">
+            <a href="/" className="hover:text-gray-700">Facebook</a>
+            <a href="/" className="hover:text-gray-700">Twitter</a>
+            <a href="/" className="hover:text-gray-700">Instagram</a>
+            <a href="/" className="hover:text-gray-700">LinkedIn</a>
+        </div>
+        <p>© <span id="year"></span> Cafe Delight. All rights reserved.</p>
+    </div>
+</footer>
 
-          <div className="text-center mt-6">
-            <p>© <span id="year"></span> MyBrand. All rights reserved.</p>
-          </div>
-        </footer>
         </div>
       </body>
     </html>
