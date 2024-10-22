@@ -8,7 +8,7 @@ export default function Home() {
                 <p className="text-lg mb-8">
                     The perfect place to unwind with a cup of coffee and a delicious meal.
                 </p>
-                <a href="#" className="bg-black text-white py-3 px-6 rounded hover:bg-gray-700">
+                <a href="/menu" className="bg-black text-white py-3 px-6 rounded hover:bg-gray-700">
                     Explore Our Menu
                 </a>
             </section>
