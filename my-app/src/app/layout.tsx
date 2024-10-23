@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 
 // These styles apply to every route in the application
 import './globals.css'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -25,16 +26,16 @@ export default function RootLayout({
             </div>
 
             <nav className="hidden md:flex space-x-6">
-              <a href="/" className="text-black hover:text-gray-700">Home</a>
-              <a href="/about" className="text-black hover:text-gray-700">About</a>
-              <a href="/service" className="text-black hover:text-gray-700">Services</a>
-              <a href="/contact" className="text-black hover:text-gray-700">Contact</a>
+              <Link href="/" className="text-black hover:text-gray-700">Home</Link>
+              <Link href="/service" className="text-black hover:text-gray-700">Services</Link>
+              <Link href="/about" className="text-black hover:text-gray-700">About</Link>
+              <Link href="/contact" className="text-black hover:text-gray-700">Contact</Link>
             </nav>
 
             <div>
-              <a href="/login" className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
+              <Link href="/login" className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
                 Logout
-              </a>
+              </Link>
             </div>
           </div>
         </header>
@@ -42,8 +43,8 @@ export default function RootLayout({
         <footer className="bg-white text-black py-8">
     <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
         <div className="flex space-x-4">
-            <a href="/" className="hover:text-gray-700">Privacy Policy</a>
-            <a href="/" className="hover:text-gray-700">Terms of Service</a>
+            <Link href="/" className="hover:text-gray-700">Privacy Policy</Link>
+            <Link href="/" className="hover:text-gray-700">Terms of Service</Link>
         </div>
         <div className="mt-4 md:mt-0">
             <p className="text-center md:text-right">Contact: <a href="mailto:info@cafedelight.com" className="hover:text-gray-700">info@cafedelight.com</a></p>
@@ -52,12 +53,12 @@ export default function RootLayout({
 
     <div className="text-center mt-6">
         <div className="flex justify-center space-x-4 mb-4">
-            <a href="/" className="hover:text-gray-700">Facebook</a>
-            <a href="/" className="hover:text-gray-700">Twitter</a>
-            <a href="/" className="hover:text-gray-700">Instagram</a>
-            <a href="/" className="hover:text-gray-700">LinkedIn</a>
+            <Link href="/" className="hover:text-gray-700">Facebook</Link>
+            <Link href="/" className="hover:text-gray-700">Twitter</Link>
+            <Link href="/" className="hover:text-gray-700">Instagram</Link>
+            <Link href="/" className="hover:text-gray-700">LinkedIn</Link>
         </div>
-        <p>© by <span id="year"><a href="https:/github.com/AvinashMarkad">AvinashMarkad</a></span> All rights reserved.</p>
+        <p>© by <span id="year"><Link href="https:/github.com/AvinashMarkad">AvinashMarkad</Link></span> All rights reserved.</p>
     </div>
 </footer>
 
