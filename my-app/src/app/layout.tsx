@@ -57,7 +57,7 @@ export default function RootLayout({
             <a href="/" className="hover:text-gray-700">Instagram</a>
             <a href="/" className="hover:text-gray-700">LinkedIn</a>
         </div>
-        <p>© <span id="year"></span> Cafe Delight. All rights reserved.</p>
+        <p>© by <span id="year"><a href="https:/github.com/AvinashMarkad">AvinashMarkad</a></span> All rights reserved.</p>
     </div>
 </footer>
 
