@@ -36,6 +36,7 @@ export default function Login() {
                         />
                     </div>
                     <div className="flex justify-between mb-4">
+                        
                         <Link href="/forgot-password" className="text-blue-500 hover:text-blue-700 text-sm">Forgot Password?</Link>
                         <Link href="/register" className="text-blue-500 hover:text-blue-700 text-sm">Register</Link>
                     </div>
