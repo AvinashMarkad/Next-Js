@@ -14,8 +14,9 @@ export default function Login() {
     const Router = useRouter();
     const handleRoute = () => {
         // Router.push("/about")
-        // Router.replace("/")
-        Router.back()
+        Router.replace("/")
+        // Router.back()
+
     }
 
     return (

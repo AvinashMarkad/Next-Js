@@ -1,0 +1,23 @@
+.loader {
+  width: 100vh;
+  height: 40vh;
+  border-radius: 50%;
+  background-color: #000000;
+  animation: pulse 2s infinite;
+}
+
+.align-item {
+  align-items: center;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
