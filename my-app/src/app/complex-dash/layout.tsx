@@ -5,11 +5,13 @@ export default function compLayout({
   notification,
   revenue,
   user,
+
 }: {
   children: ReactNode;
   notification: ReactNode;
   revenue: ReactNode;
   user: ReactNode;
+  
 }) {
   return (
     <>
@@ -30,6 +32,7 @@ export default function compLayout({
       <div className="w-1/2 bg-gray-200 p-6 rounded-lg shadow-lg">
         <h2 className="text-xl font-bold mb-2">Revenue</h2>
         {revenue}
+      
       </div>
     </div>
     </>
