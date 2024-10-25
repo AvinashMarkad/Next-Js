@@ -20,18 +20,18 @@ export default function compLayout({
       <div className="flex flex-col w-1/2 space-y-6">
         <div className="bg-gray-200 p-6 rounded-lg shadow-lg">
           <h2 className="text-xl font-bold mb-2">Notifications</h2>
-          {notification}
+          <h1>{notification}</h1>
         </div>
         <div className="bg-gray-200 p-6 rounded-lg shadow-lg">
           <h2 className="text-xl font-bold mb-2">User</h2>
-          {user}
+         <h1> {user}</h1>
         </div>
       </div>
 
       {/* Revenue Section */}
       <div className="w-1/2 bg-gray-200 p-6 rounded-lg shadow-lg">
-        <h2 className="text-xl font-bold mb-2">Revenue</h2>
-        {revenue}
+        {/* <h2 className="text-xl font-bold mb-2">Revenue</h2> */}
+       <h1> {revenue}</h1>
       
       </div>
     </div>

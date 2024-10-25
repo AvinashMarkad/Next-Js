@@ -16,7 +16,7 @@ export default function Admin() {
     return (
         <section className="flex items-center justify-center min-h-screen bg-white p-6">
             <div className="max-w-md w-full bg-gray-100 rounded-lg p-8 shadow-md">
-                <h2 className="text-3xl font-bold text-center text-black mb-6">Login</h2>
+                <h2 className="text-3xl font-bold text-center text-black mb-6">Admin Login</h2>
                 <form>
                     <div className="mb-4">
                         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
