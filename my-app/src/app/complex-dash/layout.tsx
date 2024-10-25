@@ -16,7 +16,7 @@ export default function compLayout({
   return (
     <>
       <div className="flex p-6 space-x-6">
-      {/* Notifications and User Section */}
+     
       <div className="flex flex-col w-1/2 space-y-6">
         <div className="bg-gray-200 p-6 rounded-lg shadow-lg">
           <h2 className="text-xl font-bold mb-2">Notifications</h2>
@@ -28,7 +28,7 @@ export default function compLayout({
         </div>
       </div>
 
-      {/* Revenue Section */}
+    
       <div className="w-1/2 bg-gray-200 p-6 rounded-lg shadow-lg">
         {/* <h2 className="text-xl font-bold mb-2">Revenue</h2> */}
        <h1> {revenue}</h1>
