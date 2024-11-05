@@ -5,15 +5,18 @@ export default function compLayout({
   notification,
   revenue,
   user,
+  login2,
 
 }: {
   children: ReactNode;
   notification: ReactNode;
   revenue: ReactNode;
   user: ReactNode;
+  login2:ReactNode;
   
 }) {
-  return (
+    const LoggedIn = false;
+  return LoggedIn ? (
     <>
       <div className="flex p-6 space-x-6">
      
@@ -36,5 +39,7 @@ export default function compLayout({
       </div>
     </div>
     </>
-  );
+  ):(
+    login2
+  )
 }
