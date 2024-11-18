@@ -14,7 +14,7 @@ export default function Contact() {
         inquiries.
       </p>
 
-      <div className="max-w-md w-full bg-gray-100 rounded-lg p-6 shadow-md mb-6">
+      <div className="max-w-md w-full bg-gray-100 rounded-[1rem] p-6 shadow-md mb-6">
         <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
         <form>
           <div className="mb-4">
@@ -28,7 +28,7 @@ export default function Contact() {
               type="text"
               id="name"
               placeholder="Your Name"
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded-[1rem] w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               required
             />
           </div>
@@ -43,7 +43,7 @@ export default function Contact() {
               type="email"
               id="email"
               placeholder="Your Email"
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded-[1rem] w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               required
             />
           </div>
@@ -57,12 +57,12 @@ export default function Contact() {
             <textarea
               id="message"
               placeholder="Your Message"
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded-[1rem] w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               rows={4}
               required
             ></textarea>
           </div>
-          <button className="bg-black text-white p-2 rounded hover:bg-gray-800 transition">
+          <button className="bg-rose-500 text-white p-2 rounded-[1rem] hover:bg-rose-700 transition">
             Send Message
           </button>
         </form>
