@@ -60,11 +60,12 @@ export default function RootLayout({
               <div>
                 <Link
                   href="/login"
-                  className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800"
+                  className="bg-rose-500 text-white py-2 px-4 rounded hover:bg-rose-600"
                 >
                   Logout
                 </Link>
               </div>
+
             </div>
           </header>
           {children}
